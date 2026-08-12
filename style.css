@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'header';
+    src: url(Fonts/Lato-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'paragraph';
+    src: url('Fonts/Lato-Regular.ttf') format('truetype')
+}
+
+h2 {
+    font-family: 'paragraph';
+    padding-top: 3vw;
+}
+
+h1 {
+    font-family: 'header';
+}
+
 body {
     display: flex;
     align-items: center;
@@ -49,10 +67,6 @@ body {
     width: 50%;
 }
 
-h2 {
-    padding-top: 3vw;
-}
-
 .buttons {
     display: flex;
     flex-direction: row;
@@ -60,7 +74,6 @@ h2 {
     gap: 20%;
     padding-top: 2vw;
 }
-
 .steam {
     background-color: #201339;
     width: 15vw;
@@ -68,7 +81,6 @@ h2 {
     text-align: center;
     border-radius: 20px;
 }
-
 .discord {
     background-color: #201339;
     width: 15vw;
