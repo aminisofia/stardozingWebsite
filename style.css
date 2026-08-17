@@ -14,7 +14,7 @@ h2 {
 }
 h1 {
     font-family: 'header';
-    width: 60%;
+    width: 50vw;
     font-size: 2vw;
 }
 body {
@@ -22,21 +22,24 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
+    /*justify-content: center;*/
     background: url(Pics/bg2.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 
 .box {
     background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 100px;
+    border-radius: 8vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 60%;
+    width: 60vw;
     margin-bottom: 5%;
     box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.3);
+    padding-top: 2vw;
 
 }
 .cat {
@@ -54,7 +57,7 @@ body {
     display: inline-flex;
     gap: 5%;
     width: 98%;
-    margin-bottom: 3vw;
+    margin-bottom: 6vw;
 }
 .icons {
     display: inline-flex;
@@ -64,9 +67,8 @@ body {
 }
 .icons img {
     justify-content: left;
-    height: 60px;
-    width: 60px;
-    margin-top: 10px;
+    height: 6vw;
+    margin-top: 1vw;
 }
 .icons img:hover, .steam:hover, .discord:hover {
     position: relative;
@@ -116,33 +118,29 @@ body {
     justify-content: center;
     align-items: center;
 }
-.discord img{
-    height: 60px;
+.discord img, .steam img{
+    height: 5vw;
     display: flex;
-    padding: 10px;
+    padding: 1vw;
 }
 
-/*green*/
-.stickers img:nth-child(1) {
-    display: block;
-    position: absolute;
-    width: 20vw;
-    right: 65vw;
-    bottom: 15vw;
-}
+/*!*green*!*/
+/*.stickers img:nth-child(1) {*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    width: 20vw;*/
+/*    right: 65vw;*/
+/*    bottom: 15vw;*/
+/*}*/
 /*yellow*/
-.stickers img:nth-child(2) {
-    display: block;
-    position: absolute;
-    width: 20vw;
-    right: 13vw;
-    bottom: 14vw;
+.stickers img {
+    display: none;
 }
-/*pink*/
-.stickers img:nth-child(3) {
-    display: block;
-    position: absolute;
-    width: 20vw;
-    right: 68vw;
-    bottom: -6vw;
-}
+/*!*pink*!*/
+/*.stickers img:nth-child(3) {*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    width: 20vw;*/
+/*    right: 68vw;*/
+/*    bottom: -6vw;*/
+/*}*/

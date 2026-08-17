@@ -1,0 +1,68 @@
+@media (max-device-width: 480px) {
+
+    body {
+        margin-bottom: 10vw;
+    }
+    .box {
+        width: 75vw;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+    }
+
+    h1 {
+        font-size: 5vw;
+        width: 70%;
+    }
+    h2 {
+        font-size: 4vw;
+    }
+
+    .header {
+        width: 100vw;
+    }
+    .cat {
+        width: 100vw;
+        margin-bottom: -12vw;
+    }
+
+    .buttons {
+        margin-top: 1vw;
+        flex-direction: column;
+        gap: 4vw;
+    }
+    .steam, .discord {
+        width: 50vw;
+        height: 15vw;
+    }
+    .steam img, .discord img {
+        height: 10vw;
+        padding-right: 3vw;
+    }
+
+    .icons img {
+        height: 15vw;
+    }
+    .icons {
+        margin-bottom: 5vw;
+    }
+
+    /*yellow*/
+    .stickers img {
+        display: flex;
+        width: 50vw;
+        height: 50vw;
+    }
+    .stickers {
+        position: fixed;
+        bottom: 0;
+
+    }
+
+}
+
+@media (max-device-width: 378px) {
+
+    .stickers {
+        display: none;
+    }
+}
