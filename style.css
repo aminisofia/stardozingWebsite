@@ -2,6 +2,8 @@ body {
     margin: 0;
 }
 
+/*#region header*/
+
 .header {
     position: sticky;
 }
@@ -50,3 +52,23 @@ body {
 .header-icons > a > img {
     width: stretch;
 }
+
+/*#endregion */
+
+/*#region body*/
+
+/*#endregion */
+
+/*#region footer*/
+
+.footer {
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.footer > img {
+    width: 100%;
+}
+
+/*#endregion */
